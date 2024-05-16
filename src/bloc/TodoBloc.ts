@@ -23,7 +23,7 @@ class TodoBloc implements Bloc {
         this._todos$.next(this._todos$.getValue().concat(todo))
     }
 
-    tooleTodo(todo: Todo) {
+    toggleTodo(todo: Todo) {
         this._todos$.next(
             this._todos$
                 .getValue()

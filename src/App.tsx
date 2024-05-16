@@ -41,7 +41,7 @@ function App() {
         {
           todos?.map((t:Todo)=>(
             <React.Fragment key={t.id}>
-              <TodoItem todo={t} onToggle={()=>todoBloc.toogleTodo(t)} />
+              <TodoItem todo={t} onToggle={()=>todoBloc.toggleTodo(t)} />
             </React.Fragment>
           ))
         }
