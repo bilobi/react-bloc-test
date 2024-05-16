@@ -1,0 +1,7 @@
+interface Todo {
+    id: string;
+    text: string;
+    isDone: boolean;
+}
+
+export default Todo;
